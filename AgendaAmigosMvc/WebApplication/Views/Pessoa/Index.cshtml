@@ -1,0 +1,96 @@
+﻿
+@model IEnumerable<WebApplication.Models.Pessoa>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<p>
+</p>
+<p>
+</p>
+<p>
+    @Html.ActionLink("Aniversariantes do Dia", "BirthDay")
+</p>
+<p>
+    @Html.ActionLink("Amigos", "Amigos")
+</p>
+<p>
+    @Html.ActionLink("Adicionar Pessoa", "Create")
+</p>
+<p>
+
+</p>
+<h2> </h2>
+<h2>Aniversariantes do dia:</h2>
+<p>
+</p>
+
+@using (Html.BeginForm("BirthDay", "RegraNegocio", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    foreach (var item in Model.Where(p => p.DataNascimento.Date.Day == DateTime.Now.Date.Day && p.DataNascimento.Date.Month == DateTime.Now.Date.Month))
+    {
+        <p>
+        </p>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+                @Html.DisplayFor(modelItem => item.Sobrenome)
+            </td>
+        </tr>
+        <p>
+        </p>
+    }
+
+
+}
+
+<p>
+
+</p>
+<h2> </h2>
+<h2>Próximos aniversariantes</h2>
+
+
+
+
+@using (Html.BeginForm("Aniversariantes", "RegraNegocio", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sobrenome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sobrenome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataNascimento)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+}
+
+
+
+
+

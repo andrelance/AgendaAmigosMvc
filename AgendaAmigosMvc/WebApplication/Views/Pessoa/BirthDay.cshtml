@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebApplication.Models.Pessoa>
+
+@{
+    ViewBag.Title = "BirthDay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+
+</p>
+<p>
+
+</p>
+<p>
+    @Html.ActionLink("Aniversariantes", "Index")
+</p>
+<p>
+    @Html.ActionLink("Amigos", "Amigos")
+</p>
+<p>
+    @Html.ActionLink("Adicionar Pessoa", "Create")
+</p>
+<p>
+
+</p>
+<p>
+
+</p>
+<h2>Aniversariantes do Dia: </h2>
+
+<p>
+
+</p>
+
+
+<p></p>
+@using (Html.BeginForm("BirthDay", "RegraNegocio", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+
+    <table class="table">
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                    @Html.DisplayFor(modelItem => item.Sobrenome)
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}

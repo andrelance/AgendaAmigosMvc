@@ -1,0 +1,12 @@
+C:\Users\andre\Music\Andre_Lancelotte_DR2_AT\LIB_Conexao\bin\Debug\LIB_Conexao.dll
+C:\Users\andre\Music\Andre_Lancelotte_DR2_AT\LIB_Conexao\bin\Debug\LIB_Conexao.pdb
+C:\Users\andre\Music\Andre_Lancelotte_DR2_AT\LIB_Conexao\obj\Debug\LIB_Conexao.csprojAssemblyReference.cache
+C:\Users\andre\Music\Andre_Lancelotte_DR2_AT\LIB_Conexao\obj\Debug\LIB_Conexao.csproj.CoreCompileInputs.cache
+C:\Users\andre\Music\Andre_Lancelotte_DR2_AT\LIB_Conexao\obj\Debug\LIB_Conexao.dll
+C:\Users\andre\Music\Andre_Lancelotte_DR2_AT\LIB_Conexao\obj\Debug\LIB_Conexao.pdb
+C:\Users\andre\source\repos\AgendaAmigosMvc\AgendaAmigosMvc\LIB_Conexao\bin\Debug\LIB_Conexao.dll
+C:\Users\andre\source\repos\AgendaAmigosMvc\AgendaAmigosMvc\LIB_Conexao\bin\Debug\LIB_Conexao.pdb
+C:\Users\andre\source\repos\AgendaAmigosMvc\AgendaAmigosMvc\LIB_Conexao\obj\Debug\LIB_Conexao.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\AgendaAmigosMvc\AgendaAmigosMvc\LIB_Conexao\obj\Debug\LIB_Conexao.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\AgendaAmigosMvc\AgendaAmigosMvc\LIB_Conexao\obj\Debug\LIB_Conexao.dll
+C:\Users\andre\source\repos\AgendaAmigosMvc\AgendaAmigosMvc\LIB_Conexao\obj\Debug\LIB_Conexao.pdb
